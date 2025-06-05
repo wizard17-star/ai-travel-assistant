@@ -29,20 +29,22 @@
 | Knowledge  | Wikipedia search                                       |
 
 ---
-🛠 Tech Stack Overview
+
+🛠 Project Structure 
 
 ai-travel-assistant/
-├── app.py                 # Streamlit frontend
-├── executor.py            # Task router for AI + data services
-├── services/
+├── app.py                 # Streamlit UI
+├── executor.py            # Core planner logic
+├── services/              # Modular service-based API layers
 │   ├── hotel_service.py
 │   ├── restaurant_service.py
 │   ├── weather_service.py
 │   └── attraction_service.py
-├── prompts/               # LLM prompt templates
-├── data/                  # Static content (city RAG, etc.)
+├── prompts/               # Custom LLM prompt templates
+├── data/                  # RAG-style text files
 ├── .env.example
 └── requirements.txt
+
 ---
 
 ## 🔑 Required API Keys
