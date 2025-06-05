@@ -32,18 +32,7 @@
 
 🛠 Project Structure 
 
-ai-travel-assistant/
-├── app.py                 # Streamlit UI
-├── executor.py            # Core planner logic
-├── services/              # Modular service-based API layers
-│   ├── hotel_service.py
-│   ├── restaurant_service.py
-│   ├── weather_service.py
-│   └── attraction_service.py
-├── prompts/               # Custom LLM prompt templates
-├── data/                  # RAG-style text files
-├── .env.example
-└── requirements.txt
+<pre> ```bash ai-travel-assistant/ ├── app.py # Streamlit UI ├── executor.py # Core planner logic ├── services/ # Modular service-based API layers │ ├── hotel_service.py │ ├── restaurant_service.py │ ├── weather_service.py │ └── attraction_service.py ├── prompts/ # Custom LLM prompt templates ├── data/ # RAG-style text files ├── .env.example └── requirements.txt ``` </pre>
 
 ---
 
