@@ -8,7 +8,7 @@ forecasts based on user inputs.
 
 ## 🚀 Features
 
-- 🗓️ Suggests sightseeing places (museums, nature, historical sites) based on the selected **city** and **travel date**
+- 🗓️ Suggests sightseeing places (museums, nature, historical sites) based on the selected **city** 
 - 🏨 Provides hotel recommendations based on destination and budget
 - 🍽️ If **Food** is selected, gives restaurant suggestions near attraction points
 - ☁️ Fetches **real-time weather data** for selected date and destination
