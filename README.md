@@ -76,5 +76,8 @@ pip install -r requirements.txt
 cp .env.example .env
 # Edit the .env file and add your keys
 
+# Launch Backend frontend
+uvicorn backend.main:app --reload
+
 # Launch Streamlit frontend
 streamlit run app.py
