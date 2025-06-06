@@ -1,6 +1,8 @@
 # 🧭 AI Travel Assistant
 
-**AI Travel Assistant** is a personalized trip planner that recommends sightseeing spots, hotels, and restaurants based on the destination and selected preferences. Powered by multiple APIs and LLM agents, the system generates context-aware suggestions including cultural, culinary, and nature-based attractions.
+**AI Travel Assistant is a personalized travel planning system powered by Large Language Models (LLMs) and
+external APIs. It generates city-specific travel itineraries, hotel and restaurant suggestions, and weather
+forecasts based on user inputs.
 
 ---
 
