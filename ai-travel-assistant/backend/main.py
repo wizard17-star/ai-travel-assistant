@@ -5,7 +5,7 @@ from backend.agents.executor_agent import execute_task
 
 app = FastAPI()
 
-# CORS (Streamlit ile bağlantı için şart)
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
