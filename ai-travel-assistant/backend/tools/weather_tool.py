@@ -2,7 +2,7 @@ import requests
 import os
 from dotenv import load_dotenv
 
-load_dotenv()  # .env dosyasını yükler
+load_dotenv()  
 
 def get_weather_forecast(city: str) -> str:
     api_key = os.getenv("OPENWEATHER_API_KEY")
